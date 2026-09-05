@@ -1,0 +1,25 @@
+### day 2 ###
+
+declare a variable nonmutable "let"
+mutable variable "let mut"
+
+print = print! and multiline string = println!
+
+use variables in strings = println!("value of x = {}", x);
+
+### day 3 ###
+
+getting input fucking sucks
+
+use std::io
+
+let mut input = String::new();
+
+input.clear();
+
+io::stdin().read_line(&mut input).unwrap();
+
+let input = input.trim();
+
+make string a integer: let int = string.parse::<i32>().unwrap();
+
