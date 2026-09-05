@@ -6,22 +6,30 @@ edition = "2024"
 
 [[bin]]
 name = "day1"
-path = "src/day1.rs"
+path = "src/bin/day1.rs"
 
 [[bin]]
 name = "work1"
-path = "src/work1.rs"
+path = "src/bin/work1.rs"
 
 [[bin]]
 name = "day3"
-path = "src/day3.rs"
+path = "src/bin/day3.rs"
 
 [[bin]]
 name = "calculator"
-path = "src/calculator.rs"
+path = "src/bin/calculator.rs"
 
 [[bin]]
 name = "day4"
-path = "src/day4.rs"
+path = "src/bin/day4.rs"
+
+[[bin]]
+name = "day6"
+path = "src/bin/day6.rs"
+
+[[bin]]
+name = "work6"
+path = "src/bin/work6.rs"
 
 [dependencies]
