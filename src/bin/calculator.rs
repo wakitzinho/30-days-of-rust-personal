@@ -1,5 +1,4 @@
 use std::io;
-
 fn main() {
 
     // first number
@@ -24,7 +23,6 @@ fn main() {
     let number2 = number2.trim();
 
     // handling
-
     let num1 = number1.parse::<i64>().unwrap();
     let num2 = number2.parse::<i64>().unwrap();
 
@@ -43,9 +41,4 @@ fn main() {
     } else {
         println!("invalid operator! ")
     }
-
-
-
-
-
-    }
+}
